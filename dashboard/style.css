@@ -83,7 +83,6 @@
   height: 60px;
   background: #141414;
   display: flex;
-  display: -webkit-flex;
   justify-content: space-between;
   padding: 0 60px 0 60px;
 }
@@ -126,7 +125,8 @@ body {
 }
 
 .main_about {
-  padding: 0 600px;
+  margin: auto;
+  width: 50%;
   text-align: center;
 }
 span {
@@ -138,4 +138,18 @@ span {
 span.fade {
   opacity: 2;
   transform: translateY(0px);
+}
+.footer {
+  position: fixed;
+  color: #eeeeee;
+  left: 0;
+  padding: 0 60px 0 60px;
+  bottom: 0;
+  width: 90%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_text {
+  float: left;
 }
