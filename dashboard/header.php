@@ -17,9 +17,9 @@
   <div class="navbar">
     <nav class="header-left">
       <ul>
-        <li><a href="/dashboard/index.php">Home</a> </li>
-        <li><a href="/dashboard/aboutus.php">About US</a> </li>
-        <li><a href="/dashboard/contactus.php">Contact Us</a> </li>
+        <li><a class="navbar_button" href="/dashboard/index.php">Home</a> </li>
+        <li><a class="navbar_button" href="/dashboard/aboutus.php">About US</a> </li>
+        <li><a class="navbar_button" href="/dashboard/contactus.php">Contact Us</a> </li>
       </ul>
     </nav>
     <nav class="header-right">
