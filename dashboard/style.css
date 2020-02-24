@@ -57,7 +57,7 @@
   border: none;
   background: #eeeeee;
   text-align: center;
-  color: #026e57;
+  color: #3e2adc;
   font: 600 18px/70px 'Raleway', Arial, sans-serif;
   transition: all 0.3s linear;
   border-radius: 10px;
@@ -162,5 +162,37 @@ span.fade {
 .navbar_log {
   background-image: linear-gradient(146.8deg, #3e2adc 2.71%, #af06ff 91.07%);
   padding: 10px;
+  border-radius: 10px;
+}
+.main_notlogedin {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-top: 60px;
+}
+.user_data {
+  border: none;
+  color: white;
+  background-color: #141414;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  font: 700 15px/24px 'Robot', Arial, sans-serif;
+}
+.user_data_container {
+  text-align: center;
+}
+.enter_form_send_user {
+  cursor: pointer;
+  margin-top: 30px;
+  width: 200px;
+  height: 70px;
+  border: none;
+  background: #eeeeee;
+  text-align: center;
+  color: #3e2adc;
+  font: 600 18px/70px 'Raleway', Arial, sans-serif;
+  transition: all 0.3s linear;
   border-radius: 10px;
 }
