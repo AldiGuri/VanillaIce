@@ -6,6 +6,7 @@ about LONGTEXT NOT NULL
 );
 
 CREATE TABLE `msg` (
+`id` int(20) AUTO_INCREMENT PRIMARY KEY NOT NULL,
 `name` varchar(256) NOT NULL,
 `email` varchar(256) NOT NULL,
 `subject` text NOT NULL,
@@ -15,3 +16,5 @@ CREATE TABLE `msg` (
 INSERT INTO `users`(`name`, `pwd`, `about`) VALUES ("user","user","about user");
 
 INSERT INTO `users`(`name`, `pwd`, `about`) VALUES ("admin","admin","about admin")
+
+// index all includes

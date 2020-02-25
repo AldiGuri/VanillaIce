@@ -233,3 +233,35 @@ span.fade {
   font: 14px 'Raleway', Arial, sans-serif;
   padding: 0 20px;
 }
+table {
+  font: 14px 'Raleway', Arial, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 700px;
+  margin: auto;
+  background-image: linear-gradient(146.8deg, #3e2adc 2.71%, #af06ff 91.07%);
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.hidden {
+  display: none;
+}
+.first_row {
+  width: 1px;
+}
+.first_row_button {
+  border: none;
+  color: red;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+}
