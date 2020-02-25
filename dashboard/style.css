@@ -196,3 +196,40 @@ span.fade {
   transition: all 0.3s linear;
   border-radius: 10px;
 }
+
+.container_aboutus {
+  position: fixed;
+  top: 300px;
+  left: 50%;
+  margin-top: -14em;
+  margin-left: -15em;
+  border-radius: 10px;
+  background-image: linear-gradient(146.8deg, #3e2adc 2.71%, #af06ff 91.07%);
+}
+.contactus_form {
+  padding: 25px;
+  margin-top: 15px;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  resize: none;
+  overflow: hidden;
+}
+.span_contactus {
+  width: 311px;
+}
+.landing_enter_form_contactus {
+  padding: 45px 50px 50px;
+}
+
+.landing_enter_form_contactus input[type='text'] {
+  position: relative;
+  z-index: 2;
+  width: 311px;
+  height: 53px;
+  border: none;
+  background: rgba(21, 16, 27, 0.1);
+  color: #eeeeee;
+  font: 14px 'Raleway', Arial, sans-serif;
+  padding: 0 20px;
+}

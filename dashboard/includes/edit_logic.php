@@ -24,10 +24,10 @@
       $row = $result->fetch_assoc();
     }
     $_SESSION['about']=$row['about'];
-
+    
 
     header("Location: ../index.php");
-      exit();
+    exit();
   }
 
 ?>
